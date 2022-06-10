@@ -3,5 +3,5 @@ init_config:
 instances:
   - host: traefik
     port: "8080"
-    path: "/health"
+    path: "/ping"
     scheme: "http"
