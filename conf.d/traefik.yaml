@@ -1,10 +1,10 @@
 init_config:
 
 instances:
-#  - host: traefik
-#    port: "8080"
-#    path: "/ping"
-#    scheme: "http"    
+  - host: traefik
+    port: "8080"
+    path: "/ping"
+    scheme: "http"    
 
 logs:
   - type: file
